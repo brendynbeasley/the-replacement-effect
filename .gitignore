@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Extracted Census .dat files, if unzipped by hand (the scripts read the committed zips directly)
+data/raw/*.dat
+
+# Secrets
+*.key
+.env
+
+# OS
+.DS_Store
